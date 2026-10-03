@@ -13,7 +13,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Madame Chocolate Cantina Pio XII | Campinas/SP</title>
+  <title>Renata Doces e Chocolates | Fortaleza/CE</title>
 
   <!-- Swiper CSS para o Slider -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -29,11 +29,11 @@
     }
 
     :root {
-      --primary-color: #4a2c2a; /* Marrom Chocolate Gourmet */
-      --secondary-color: #d97706; /* Ambar / Caramelo */
-      --accent-color: #271412;
+      --primary-color: #be185d; /* Rosa Confeitaria / Doces */
+      --secondary-color: #f472b6; /* Rosa Suave */
+      --accent-color: #831843;
       --text-color: #1f2937;
-      --bg-light: #fffbeb;
+      --bg-light: #fdf2f8;
       --white: #ffffff;
     }
 
@@ -58,7 +58,7 @@
     }
 
     .logo {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       font-weight: 800;
       display: flex;
       align-items: center;
@@ -103,7 +103,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(30, 15, 12, 0.70);
+      background: rgba(30, 10, 20, 0.65);
     }
 
     .slide-content {
@@ -116,7 +116,7 @@
     }
 
     .slide-content h1 {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
       margin-bottom: 0.8rem;
       font-weight: 800;
       text-transform: uppercase;
@@ -124,9 +124,9 @@
     }
 
     .slide-content p {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       margin-bottom: 1.5rem;
-      color: #fde68a;
+      color: #fbcfe8;
     }
 
     .btn {
@@ -138,7 +138,6 @@
       border-radius: 6px;
       font-weight: 700;
       transition: background 0.3s;
-      border: 1px solid var(--secondary-color);
     }
 
     .btn:hover {
@@ -239,8 +238,8 @@
     }
 
     @media (max-width: 768px) {
-      .slide-content h1 { font-size: 1.7rem; }
-      .slide-content p { font-size: 0.95rem; }
+      .slide-content h1 { font-size: 1.8rem; }
+      .slide-content p { font-size: 1rem; }
       .swiper { height: 45vh; }
     }
   </style>
@@ -250,7 +249,7 @@
   <!-- Menu Cabeçalho -->
   <header>
     <div class="logo">
-      <i class="fa-solid fa-mug-hot"></i> Madame Chocolate Cantina
+      <i class="fa-solid fa-cookie"></i> Renata Doces e Chocolates
     </div>
     <nav>
       <a href="#inicio">Início</a>
@@ -265,28 +264,28 @@
       <div class="swiper-wrapper">
         
         <!-- Slide 1 -->
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=1200');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200');">
           <div class="slide-overlay"></div>
           <div class="slide-content">
-            <h1>Madame Chocolate Cantina Pio XII</h1>
-            <p>Sabores Exclusivos e Cantina Especializada em Campinas</p>
+            <h1>Renata Doces e Chocolates</h1>
+            <p>O Verdadeiro Sabor do Amor em Forma de Doces em Fortaleza</p>
             <a href="#contato" class="btn">Entre em Contato</a>
           </div>
         </div>
 
         <!-- Slide 2 -->
-        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=1200');">
+        <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1587314168485-3236d6710814?q=80&w=1200');">
           <div class="slide-overlay"></div>
           <div class="slide-content">
-            <h1>Bosque — Campinas / SP</h1>
-            <p>Rua Boaventura do Amaral, 354</p>
+            <h1>Montese — Fortaleza / CE</h1>
+            <p>Rua Mimosa, 53 — Doces e Chocolates Especiais</p>
             <a href="#registro" class="btn">Dados Cadastrais</a>
           </div>
         </div>
 
       </div>
-      <div class="swiper-button-next" style="color: #fde68a;"></div>
-      <div class="swiper-button-prev" style="color: #fde68a;"></div>
+      <div class="swiper-button-next" style="color: #fff;"></div>
+      <div class="swiper-button-prev" style="color: #fff;"></div>
       <div class="swiper-pagination"></div>
     </div>
   </section>
@@ -298,27 +297,22 @@
     <div class="info-grid">
       <div class="info-card">
         <h3>Razão Social</h3>
-        <p>Madame Chocolate Cantina Pio Xii LTDA</p>
+        <p>M A de Oliveira Doces e Chocolates</p>
       </div>
 
       <div class="info-card">
         <h3>Nome Fantasia</h3>
-        <p>Madame Chocolate Cantina Pio Xii LTDA</p>
+        <p>Renata Doces e Chocolates</p>
       </div>
 
       <div class="info-card">
         <h3>CNPJ</h3>
-        <p>64.976.222/0001-27</p>
-      </div>
-
-      <div class="info-card">
-        <h3>Inscrição Estadual (SP)</h3>
-        <p>157.964.204.119</p>
+        <p>37.025.438/0001-34</p>
       </div>
 
       <div class="info-card">
         <h3>Situação Cadastral</h3>
-        <p><span class="badge">Ativa</span> (Desde 06/02/2026)</p>
+        <p><span class="badge">Ativa</span> (Desde 28/04/2020)</p>
       </div>
 
       <div class="info-card">
@@ -328,17 +322,17 @@
 
       <div class="info-card">
         <h3>Regime Tributário</h3>
-        <p>Simples Nacional (Desde 06/02/2026)</p>
+        <p>Simples Nacional (Desde 01/01/2026)</p>
       </div>
 
       <div class="info-card">
         <h3>Natureza Jurídica / Tipo</h3>
-        <p>Sociedade Empresária Limitada (Matriz)</p>
+        <p>Empresário Individual (Matriz)</p>
       </div>
 
       <div class="info-card">
         <h3>Capital Social</h3>
-        <p>R$ 1.000,00</p>
+        <p>R$ 20.000,00</p>
       </div>
     </div>
   </section>
@@ -355,7 +349,7 @@
           <i class="fa-solid fa-envelope"></i>
           <div>
             <strong>E-mail:</strong><br>
-            co****@****.com.br
+            re****@****.com
           </div>
         </div>
 
@@ -363,7 +357,7 @@
           <i class="fa-solid fa-phone"></i>
           <div>
             <strong>Telefone:</strong><br>
-            (19) 993****-****
+            (85) 996****-****
           </div>
         </div>
       </div>
@@ -374,10 +368,10 @@
         <div class="contact-item">
           <i class="fa-solid fa-location-dot"></i>
           <div>
-            Madame Chocolate Cantina Pio Xii LTDA<br>
-            Rua Boaventura do Amaral, 354<br>
-            <strong>Bairro:</strong> Bosque<br>
-            Campinas - SP | <strong>CEP:</strong> 13026-055
+            M A de Oliveira Doces e Chocolates<br>
+            Rua Mimosa, 53<br>
+            <strong>Bairro:</strong> Montese<br>
+            Fortaleza - CE | <strong>CEP:</strong> 60410-230
           </div>
         </div>
       </div>
@@ -386,7 +380,7 @@
 
   <!-- Rodapé -->
   <footer>
-    <p>&copy; 2026 Madame Chocolate Cantina Pio Xii LTDA (CNPJ: 64.976.222/0001-27). Todos os direitos reservados.</p>
+    <p>&copy; 2026 M A de Oliveira Doces e Chocolates (CNPJ: 37.025.438/0001-34). Todos os direitos reservados.</p>
   </footer>
 
   <!-- Scripts do Slider Swiper -->
